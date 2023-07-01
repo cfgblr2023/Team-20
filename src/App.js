@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 // import "./App.css";
 import Home  from "./pages/Home";
-import { Courses } from "./pages/Courses";
+import Courses  from "./pages/Courses";
 function App() {
   return (
     <div className="App">

@@ -37,26 +37,26 @@ const HeroSection = () => {
       
     },
     {
-      id: 4,
+      id: 5,
       title: "Kavya",
       description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
-      link:"https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+      image: "https://i.pinimg.com/564x/b6/35/a9/b635a9d9f782126414e23140c75a66db--september-medicine.jpg",
+      link:"https://i.pinimg.com/564x/b6/35/a9/b635a9d9f782126414e23140c75a66db--september-medicine.jpg",
     },
     {
-      id: 4,
+      id: 6,
       title: "Nia",
       description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: "https://careers.hdi.group/media/Bilder-und-Videos/karriere/bilder/berufserfahrene/insurance/HDI-Vertrieb6_2_1_M.jpg",
       link:"https://careers.hdi.group/media/Bilder-und-Videos/karriere/bilder/berufserfahrene/insurance/HDI-Vertrieb6_2_1_M.jpg",
     },
-    {
-      id: 4,
-      title: "Vishnu",
-      description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
-      link:"https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
-    },
+    // {
+    //   id: 7,
+    //   title: "Vishnu",
+    //   description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //   image: "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+    //   link:"https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+    // },
   ];
 
   return (
