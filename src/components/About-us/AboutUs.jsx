@@ -20,12 +20,11 @@ const AboutUs = () => {
             <div className="about__content">
               <h2>About Us</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Excepturi cupiditate animi deserunt libero nesciunt corporis
-                explicabo nobis ex quo molestiae!
+              Canasu is not just an organization that helps women entrepreneurs, it is a revolution to support the dream of every woman to construct their future with perseverance. We strengthen their inner voice by driving away their fear of suppression and by bringing freedom into every sphere of their lives. We strongly believe that if we need to make the world a better place for tomorrow, women need to be architects of the future.
+There are several women in communities who are suppressed and are not supported due to social inequality and societal shackles. Our aim is to educate them and free them from this caged thinking which is hampering their growth.
               </p>
 
-              <div className="about__counter">
+              {/* <div className="about__counter">
                 <div className=" d-flex gap-5 align-items-center">
                   <div className="single__counter">
                     <span className="counter">
@@ -61,7 +60,7 @@ const AboutUs = () => {
                     <p className="counter__title">Categories Served</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>

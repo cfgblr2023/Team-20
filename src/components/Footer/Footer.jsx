@@ -6,12 +6,12 @@ import "./footer.css";
 const footerQuickLinks = [
   {
     display: "Home",
-    url: "#",
+    url: "/home.jsx",
   },
-  {
-    display: "About US",
-    url: "#",
-  },
+  // {
+  //   display: "About US",
+  //   url: "#",
+  // },
 
   {
     display: "Courses",
@@ -19,7 +19,7 @@ const footerQuickLinks = [
   },
 
   {
-    display: "Blog",
+    display: "Profile",
     url: "#",
   },
 ];
@@ -51,9 +51,13 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="3" md="6" className="mb-4">
-            <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
-            </h2>
+            {/* <h2 className=" d-flex align-items-center gap-1">
+              <i class="ri-pantone-line"></i> Canasu
+            </h2> */}
+            <h2 className="d-flex align-items-center gap-1">
+  <img src="https://static.wixstatic.com/media/1dd121_b983359cada04e6cb9b14506edf0da3b~mv2.png/v1/fill/w_275,h_148,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Main%20Logo.png" alt="Logo" className="logo-img" />
+  
+</h2>
 
             <div className="follows">
               <p className="mb-0">Follow us on social media</p>

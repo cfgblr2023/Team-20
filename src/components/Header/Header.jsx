@@ -7,23 +7,23 @@ const navLinks = [
     display: "Home",
     url: "#",
   },
-  {
-    display: "About",
-    url: "#",
-  },
+  // {
+  //   display: "About",
+  //   url: "#",
+  // },
 
   {
     display: "Courses",
     url: "#",
   },
   {
-    display: "Pages",
+    display: "Profile",
     url: "#",
   },
-  {
-    display: "Blog",
-    url: "#",
-  },
+  // {
+  //   display: "Blog",
+  //   url: "#",
+  // },
 ];
 
 const Header = () => {
@@ -37,7 +37,8 @@ const Header = () => {
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+            <img src="https://static.wixstatic.com/media/1dd121_b983359cada04e6cb9b14506edf0da3b~mv2.png/v1/fill/w_275,h_148,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Main%20Logo.png" alt="Logo" />
+              {/* <i class="ri-pantone-line"></i> CANASU */}
             </h2>
           </div>
 
@@ -54,7 +55,7 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-phone-line"></i> +88 0123456789
+                <i class="ri-phone-line"></i> 089700 00808
               </p>
             </div>
           </div>
